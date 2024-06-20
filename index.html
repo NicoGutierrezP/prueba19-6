@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenidos</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+            min-height: 100vh; 
+        }
+        
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            width: 100%;
+            box-sizing: border-box; 
+            display: flex;
+            justify-content: space-between; 
+            align-items: center;
+        }
+        header img {
+            height: 40px; 
+        }
+        
+        nav {
+            background-color: #444;
+            padding: 10px 20px;
+            display: flex;
+            flex-grow: 1; 
+            justify-content: flex-end; 
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0 15px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        
+        .descripcion {
+            margin: 20px auto;
+            text-align: center;
+            max-width: 600px; 
+            padding: 0 20px; 
+            box-sizing: border-box; 
+        }
+        
+        .contenedor-imagenes {
+            display: flex;
+            justify-content: center; 
+            gap: 20px; 
+            max-width: 100%; 
+            padding: 0 20px; 
+            box-sizing: border-box; 
+            flex-wrap: wrap; 
+        }
+        
+        .imagen-con-info {
+            text-align: center;
+            width: 300px; 
+            margin-bottom: 20px;
+        }
+        .imagen {
+            width: 100%; 
+            height: auto; 
+            border: 1px solid #ccc;
+            
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .info-imagen {
+            text-align: center;
+            margin-top: 10px;
+        }
+        
+        .nombre-imagen {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .descripcion-imagen {
+            color: #666;
+            margin-bottom: 10px;
+        }
+        
+        .boton-vermas {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 8px 20px;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .boton-vermas:hover {
+            background-color: #555;
+        }
+        
+        footer {
+            background-color: #f0f0f0;
+            padding: 10px;
+            text-align: center;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="inacap.png" alt="Logo de la institución">
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Sobre nosotros</a>
+            <a href="#">Contactanos</a>
+        </nav>
+    </header>
+    <div class="descripcion">
+        <h1>Bienvenidos</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum distinctio rem voluptatem perspiciatis qui. Quasi officia corporis amet, perspiciatis error est impedit, vel, labore nemo veritatis magnam dignissimos animi illum.</p>
+        <a href="#" class="boton-vermas">Ver más</a>
+    </div>
+    
+    <div class="contenedor-imagenes">
+        <div class="imagen-con-info">
+            <img class="imagen" src="ferrar.png" alt="Imagen 1">
+            <div class="info-imagen">
+                <div class="nombre-imagen">Ferrari F1</div>
+                <div class="descripcion-imagen">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum distinctio rem voluptatem perspiciatis qui.</div>
+                <a href="#" class="boton-vermas">Ver más</a>
+            </div>
+        </div>
+        <div class="imagen-con-info">
+            <img class="imagen" src="redbull.png" alt="Imagen 2">
+            <div class="info-imagen">
+                <div class="nombre-imagen">Redbull F1</div>
+                <div class="descripcion-imagen">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum distinctio rem voluptatem perspiciatis qui.</div>
+                <a href="#" class="boton-vermas">Ver más</a>
+            </div>
+        </div>
+        <div class="imagen-con-info">
+            <img class="imagen" src="alpine.png" alt="Imagen 3">
+            <div class="info-imagen">
+                <div class="nombre-imagen">Alpine F1</div>
+                <div class="descripcion-imagen">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum distinctio rem voluptatem perspiciatis qui.</div>
+                <a href="#" class="boton-vermas">Ver más</a>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>Información del Alumno: Nicolas Gutierrez - Ing.Informatica - Inacap</p>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
